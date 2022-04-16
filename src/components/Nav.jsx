@@ -3,7 +3,7 @@ const Nav =()=>{
     return(
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <Link className="navbar-brand"  to={"/"}>Home</Link>
+        <Link className="navbar-brand"  to={"/"}>Clinica</Link>
         <button className="navbar-toggler" type="button" 
         data-bs-toggle="collapse" data-bs-target="#navbarNav" 
         aria-controls="navbarNav" aria-expanded="false" 
