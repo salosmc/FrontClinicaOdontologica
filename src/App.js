@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Odontologos from './components/Odontologos'
 import Pacientes from './components/Pacientes';
 import Home from './components/Home';
+import Turnos from './components/Turnos';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home/>}></Route>
           <Route path="/odontologos" element={<Odontologos/>}></Route>
           <Route path="/pacientes" element={<Pacientes/>}></Route>
+          <Route path="/turnos" element={<Turnos/>}></Route>
         </Routes>
 
       </BrowserRouter>

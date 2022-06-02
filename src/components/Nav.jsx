@@ -18,6 +18,9 @@ const Nav =()=>{
             <li className="nav-item">
               <Link className="nav-link" to={"/pacientes"}>Pacientes</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to={"/turnos"}>Turnos</Link>
+            </li>
           </ul>
         </div>
       </div>
